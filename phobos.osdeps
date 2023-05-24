@@ -1,0 +1,81 @@
+meshlabxml:
+  pip:
+    meshlabxml
+
+pydot:
+  pip:
+    pydot
+
+git-lfs:
+  ubuntu, debian: git-lfs
+
+numpy:
+  pip:
+    numpy==1.19.1
+
+python-fcl:
+  pip:
+    python-fcl
+
+xacro:
+  pip:
+    xacro
+
+scipy:
+  pip:
+    scipy==1.5.2
+
+python-setuptools:
+  ubuntu, debian:
+    - python3-setuptools
+
+pip:
+  ubuntu, debian:
+    - python3-pip
+
+pyyaml:
+  pip:
+    pyyaml>=5.4.1
+
+pylxml:
+  pip:
+    - lxml==4.6.3
+
+pymock:
+  ubuntu, debian:
+    - python3-mock
+
+pybullet:
+  pip:
+    pybullet==2.8.4
+
+catkin_pkg:
+  pip: catkin_pkg==0.4.19
+
+trimesh:
+  pip:
+    - trimesh==3.9.32
+    - open3d>=0.11.2,<0.14.0
+    - pandas<1.5.0
+  ubuntu, debian:
+    - libjpeg-dev
+    - zlib1g-dev
+
+full-graphviz:
+  ubuntu, debian:
+    - python3-graphviz
+    - graphviz
+    - graphviz-dev
+
+networkx:
+  pip:
+    networkx==2.4
+
+liburdfdom-tools:
+  debian, ubuntu: liburdfdom-tools
+
+opengl:
+  debian, ubuntu:
+    - libglu1-mesa-dev
+    - freeglut3-dev
+    - mesa-common-dev

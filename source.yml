@@ -1,0 +1,7 @@
+name: phobos
+
+version_control:
+    - tools/cad/phobos:
+      github: dfki-ric/phobos
+      branch: pre_v2.0.0
+
